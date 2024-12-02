@@ -9,11 +9,12 @@ const CONFIG = {
     linkedin: "eduardoslompo",
     github: "eduardoslompo",
     instagram: "eduslompo",
+    facebook: "escolajaime",
   },
   projects: [
     {
       name: `EE PEI Jaime de Oliveira`,
-      href: "https://github.com/eduardoslompo/blogJ",
+      href: "#",
     },
   ],
   // blog setting (required)
@@ -25,8 +26,8 @@ const CONFIG = {
 
   // CONFIG configration (required)
   link: "https://blog-j.vercel.app",
-  since: 2022, // If leave this empty, current year will be used.
-  lang: "en-US", // ['en-US', 'zh-CN', 'zh-HK', 'zh-TW', 'ja-JP', 'es-ES', 'ko-KR']
+  since: 2024, // If leave this empty, current year will be used.
+  lang: "pt-BR", // ['en-US', 'zh-CN', 'zh-HK', 'zh-TW', 'ja-JP', 'es-ES', 'ko-KR']
   ogImageGenerateURL: "https://og-image-korean.vercel.app", // The link to generate OG image, don't end with a slash
 
   // notion configuration (required)
