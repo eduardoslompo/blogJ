@@ -16,6 +16,26 @@ const ContactCard: React.FC = () => {
         <Emoji>💬</Emoji> Contato
       </StyledTitle>
       <StyledWrapper>
+        {CONFIG.profile.github && (
+          <a
+            href={`https://github.com/${CONFIG.profile.github}`}
+            rel="noreferrer"
+            target="_blank"
+          >
+            <AiOutlineGithub className="icon" />
+            <div className="name">github</div>
+          </a>
+        )}
+        {CONFIG.profile.instagram && (
+          <a
+            href={`https://www.instagram.com/${CONFIG.profile.instagram}`}
+            rel="noreferrer"
+            target="_blank"
+          >
+            <AiOutlineInstagram className="icon" />
+            <div className="name">instagram</div>
+          </a>
+        )}
         {CONFIG.profile.email && (
           <a
             href={`mailto:${CONFIG.profile.email}`}
