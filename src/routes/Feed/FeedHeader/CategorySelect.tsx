@@ -24,7 +24,24 @@ const CategorySelect: React.FC<Props> = () => {
     })
   }
   return (
-''
+<StyledWrapper>
+      <div ref={dropdownRef} className="wrapper" onClick={handleOpen}>
+        {currentCategory} Posts <MdExpandMore />
+      </div>
+      {opened && (
+        <div className="content">
+          {Object.keys(data).map((key, idx) => (
+            <div
+              className="item"
+              key={idx}
+              onClick={() => handleOptionClick(key)}
+            >
+              {`${key} (${data[key]})`}
+            </div>
+          ))}
+        </div>
+      )}
+    </StyledWrapper>
   )
 }
 
