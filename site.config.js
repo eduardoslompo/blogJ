@@ -2,7 +2,7 @@ const CONFIG = {
   // profile setting (required)
   profile: {
     name: "EE PEI Jaime de Oliveira",
-    image: "/avatar.svg", // If you want to create your own notion avatar, check out https://notion-avatar.vercel.app
+    image: "/escolajaimedeoliveira.png", // If you want to create your own notion avatar, check out https://notion-avatar.vercel.app
     role: "📍 Ponte Alta, Barra do Chapéu - SP",
     bio: "📍 Ponte Alta, Barra do Chapéu - SP",
     email: "escolajaime@gmail.com",
