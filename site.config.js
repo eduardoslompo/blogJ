@@ -4,7 +4,7 @@ const CONFIG = {
     name: "EE PEI Jaime de Oliveira",
     image: "/avatar.svg", // If you want to create your own notion avatar, check out https://notion-avatar.vercel.app
     role: "📍 Ponte Alta, Barra do Chapéu - SP",
-    bio: "I develop everything using node.",
+    bio: "📍 Ponte Alta, Barra do Chapéu - SP",
     email: "escolajaime@gmail.com",
     linkedin: "eduardoslompo",
     github: "eduardoslompo",
