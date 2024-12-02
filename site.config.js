@@ -1,24 +1,24 @@
 const CONFIG = {
   // profile setting (required)
   profile: {
-    name: "eduardoslompo",
+    name: "EE PEI Jaime de Oliveira",
     image: "/avatar.svg", // If you want to create your own notion avatar, check out https://notion-avatar.vercel.app
-    role: "frontend developer",
+    role: "📍 Ponte Alta, Barra do Chapéu - SP",
     bio: "I develop everything using node.",
-    email: "morethanmin.dev@gmail.com",
+    email: "escolajaime@gmail.com",
     linkedin: "eduardoslompo",
     github: "eduardoslompo",
     instagram: "eduslompo",
   },
   projects: [
     {
-      name: `escola-jaime`,
+      name: `EE PEI Jaime de Oliveira`,
       href: "https://github.com/eduardoslompo/blogJ",
     },
   ],
   // blog setting (required)
   blog: {
-    title: "escola-jaime",
+    title: "EE PEI Jaime de Oliveira",
     description: "Bem vindo!",
     scheme: "light", // 'light' | 'dark' | 'system'
   },
