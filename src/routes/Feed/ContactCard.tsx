@@ -11,7 +11,13 @@ const ContactCard: React.FC = () => {
         <Emoji>💬</Emoji> Contato
       </StyledTitle>
       <StyledWrapper>
-        {CONFIG.profile.email && (
+        {CONFIG.profile.facebook && (
+          <a href={`mailto:${CONFIG.profile.facebook}`} rel="noreferrer" target="_blank" css={{ overflow: 'hidden' }}>
+            <CiFacebook className="icon" />
+            <div className="name">facebook</div>
+          </a>
+        )}
+         {CONFIG.profile.email && (
           <a href={`mailto:${CONFIG.profile.email}`} rel="noreferrer" target="_blank" css={{ overflow: 'hidden' }}>
             <AiOutlineMail className="icon" />
             <div className="name">email</div>
