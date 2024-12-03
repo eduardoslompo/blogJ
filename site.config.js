@@ -10,6 +10,7 @@ const CONFIG = {
     github: "eduardoslompo",
     instagram: "eduslompo",
     facebook: "escolajaime",
+    phone: "1535546001"
   },
   projects: [
     {
