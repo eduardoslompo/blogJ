@@ -12,7 +12,7 @@ const ContactCard: React.FC = () => {
       </StyledTitle>
       <StyledWrapper>
         {CONFIG.profile.facebook && (
-          <a href={`mailto:${CONFIG.profile.facebook}`} rel="noreferrer" target="_blank" css={{ overflow: 'hidden' }}>
+          <a href={`https://www.facebook.com/`} rel="noreferrer" target="_blank" css={{ overflow: 'hidden' }}>
             <CiFacebook className="icon" />
             <div className="name">facebook</div>
           </a>
