@@ -4,7 +4,7 @@ import styled from '@emotion/styled';
 const FeedHeader: React.FC = () => {
   return (
     <StyledWrapper>
-      <div className="title">Últimas Notícias</div>
+      <div className="title">Últimos Posts</div>
     </StyledWrapper>
   );
 };
