@@ -24,7 +24,7 @@ const ContactCard: React.FC = () => {
           </a>
         )}
         {CONFIG.profile.phone && (
-          <a href={`tel:${CONFIG.profile.phone}`} rel="noreferrer">
+          <a href={`tel:1535546001}`} rel="noreferrer">
             <AiOutlinePhone className="icon" />
             <div className="name">phone</div>
           </a>
