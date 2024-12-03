@@ -1,6 +1,6 @@
 import React from 'react';
 import styled from '@emotion/styled';
-import { AiOutlineMail } from 'react-icons/ai';
+import { AiOutlineMail, AiOutlineFacebook } from 'react-icons/ai';
 import { CONFIG } from 'site.config';
 import { Emoji } from 'src/components/Emoji';
 
@@ -11,16 +11,16 @@ const ContactCard: React.FC = () => {
         <Emoji>💬</Emoji> Contato
       </StyledTitle>
       <StyledWrapper>
-        {CONFIG.profile.facebook && (
-          <a href={`https://www.facebook.com/`} rel="noreferrer" target="_blank" css={{ overflow: 'hidden' }}>
-            <CiFacebook className="icon" />
-            <div className="name">facebook</div>
-          </a>
-        )}
-         {CONFIG.profile.email && (
+        {CONFIG.profile.email && (
           <a href={`mailto:${CONFIG.profile.email}`} rel="noreferrer" target="_blank" css={{ overflow: 'hidden' }}>
             <AiOutlineMail className="icon" />
             <div className="name">email</div>
+          </a>
+        )}
+        {CONFIG.profile.facebook && (
+          <a href={`https://www.facebook.com/${CONFIG.profile.facebook}`} rel="noreferrer" target="_blank">
+            <AiOutlineFacebook className="icon" />
+            <div className="name">facebook</div>
           </a>
         )}
       </StyledWrapper>
