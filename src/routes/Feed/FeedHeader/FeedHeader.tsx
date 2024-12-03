@@ -6,11 +6,6 @@ import styled from "@emotion/styled"
 
 type Props = {}
 
-const FeedHeader: React.FC<Props> = () => {
-  return (
-    ''
-  )
-}
 
 export default FeedHeader
 
