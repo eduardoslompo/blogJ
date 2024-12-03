@@ -6,6 +6,14 @@ import styled from "@emotion/styled"
 
 type Props = {}
 
+const FeedHeader: React.FC<Props> = () => {
+  return (
+    <StyledWrapper>
+      <CategorySelect />
+      <OrderButtons />
+    </StyledWrapper>
+  )
+}
 
 export default FeedHeader
 
